@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@mipmap/abc_ic_search_api_mtrl_alpha"
+        android:title="搜索"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView">
+    </item>
+    <item
+        android:icon="@drawable/abs__ic_menu_moreoverflow_holo_light"
+        android:title="更多"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@android:drawable/ic_delete"
+                android:orderInCategory="100"
+                android:title="@string/action_settings"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>

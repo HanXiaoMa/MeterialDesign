@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dip"
+    android:background="@color/main_color"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        app:layout_behavior="com.dashuai.material.widget.AvatarImageBehavior"
+        android:src="@drawable/quila"
+        app:civ_border_color="@android:color/white"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="沙漠死神"
+        android:textColor="@color/window_color"
+        android:textSize="20sp" />
+
+</LinearLayout>
